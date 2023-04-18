@@ -2,11 +2,11 @@ name: Sample actions
 
 on:
   push:
-    branches: [master]
+    branches: master
 
 jobs:
   build:
-    runs-on: [ubuntu:latest]
+    runs-on: ubuntu:latest
 
     steps:
       - uses: actions/checkout@v2
